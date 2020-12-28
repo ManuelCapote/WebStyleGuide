@@ -1,0 +1,15 @@
+.img--logo {
+    @extend %img;
+
+}
+.img--frame {
+    @extend %img;
+    padding: 10px;
+    border: 1px solid $color-text;
+    width: 100%;
+}
+.img--avatar {
+    @extend %img;
+    margin-top: 20px;
+   
+}

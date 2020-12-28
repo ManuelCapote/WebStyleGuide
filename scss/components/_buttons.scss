@@ -1,0 +1,57 @@
+.btn--default {
+    @include btns('s') {
+        background-color: $color-btn-default; 
+    }     
+}
+
+.btn--success {
+    @include btns('s') {
+        background-color: $color-btn-success;
+    }    
+}
+
+.btn--error {
+    @include btns('s') {
+        background-color: $color-btn-error;
+    }    
+}
+
+.btn--warning {
+    @include btns('s') {
+        background-color: $color-btn-warning;
+    }    
+}
+
+.btn--info {
+    @include btns('s') {
+        background-color: $color-btn-info;
+    }    
+}
+
+@media (min-width: $break-m) {
+.grid__col--12 {
+    display: flex;
+}
+
+.btn--default {
+    @include btns('m') {};
+}
+
+.btn--success {
+    @include btns('m') {};
+}
+
+.btn--error {
+    @include btns('m') {};
+}
+
+.btn--warning {
+    @include btns('m') {};
+      
+}
+
+.btn--info {
+    @include btns('m') {};
+}
+
+}

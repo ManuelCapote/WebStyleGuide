@@ -1,0 +1,40 @@
+//          Placeholders
+//=============================== //
+
+
+// Links
+
+%link {
+   color: $color-secondary;
+   text-decoration: none;
+   &:hover {
+       color: $color-hover;
+   } 
+}
+
+
+// Images
+ %img {
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+}
+
+// Nav Items
+%nav-block {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+%nav-items li {
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+%grid-border {
+    border-radius: $grid-border-rounded;
+}
